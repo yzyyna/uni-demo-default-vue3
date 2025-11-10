@@ -1,0 +1,11 @@
+
+.container {
+		padding: 0.625rem;
+}
+.device-item {
+		padding: 0.3125rem;
+		border-bottom: 1px solid #eee;
+}
+.device-item:hover {
+		background-color: #f5f5f5;
+}
