@@ -14,6 +14,9 @@ class MyCharacteristic extends bleno.Characteristic {
 			value: null
 		});
 		this._value = Buffer.from('Hello BLE'); // 初始值
+		// https://github.com/noble/bleno
+		// Call the updateValueCallback callback (see Notify subscribe), with an argument of type Buffer
+		// Can specify notify sent handler via constructor options or by extending Characteristic and overriding onNotify.
 		this._updateValueCallback = null;
 	}
 
