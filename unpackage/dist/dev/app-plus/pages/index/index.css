@@ -1,11 +1,120 @@
 
 .container {
-		padding: 0.625rem;
+		padding: 20px;
+		background-color: #f5f7fa;
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
 }
-.device-item {
-		padding: 0.3125rem;
-		border-bottom: 1px solid #eee;
+.header {
+		margin-bottom: 20px;
 }
-.device-item:hover {
-		background-color: #f5f5f5;
+.title {
+		font-size: 24px;
+		font-weight: bold;
+		color: #333;
+		display: block;
+}
+.subtitle {
+		font-size: 14px;
+		color: #666;
+		margin-top: 5px;
+		display: block;
+}
+.card {
+		background: white;
+		border-radius: 12px;
+		padding: 15px;
+		margin-bottom: 15px;
+		box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+.status-box {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 15px;
+		font-size: 16px;
+}
+.label {
+		color: #666;
+}
+.value {
+		font-weight: bold;
+		color: #ff9900;
+}
+.value.success {
+		color: #07c160;
+}
+.action-btn {
+		width: 100%;
+}
+.disconnect-btn {
+		margin-top: 10px;
+}
+.section-title {
+		font-size: 16px;
+		font-weight: bold;
+		margin-bottom: 15px;
+		border-left: 4px solid #007aff;
+		padding-left: 10px;
+}
+.input-group {
+		display: flex;
+		gap: 10px;
+		margin-bottom: 15px;
+}
+.input {
+		flex: 1;
+		border: 1px solid #ddd;
+		padding: 8px 10px;
+		border-radius: 6px;
+		background: #f9f9f9;
+}
+.read-group {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+}
+.last-read {
+		background: #eef9fe;
+		padding: 10px;
+		border-radius: 6px;
+		color: #007aff;
+		font-size: 14px;
+}
+.log-area {
+		flex: 1;
+		background: #1e1e1e;
+		border-radius: 12px;
+		padding: 10px;
+		display: flex;
+		flex-direction: column;
+		height: 300px;
+}
+.log-header {
+		display: flex;
+		justify-content: space-between;
+		color: #888;
+		font-size: 12px;
+		margin-bottom: 10px;
+		border-bottom: 1px solid #333;
+		padding-bottom: 5px;
+}
+.clear-btn {
+		color: #007aff;
+}
+.log-scroll {
+		flex: 1;
+		height: 0;
+}
+.log-item {
+		margin-bottom: 5px;
+		font-family: monospace;
+		font-size: 12px;
+}
+.log-time {
+		color: #666;
+		margin-right: 8px;
+}
+.log-content {
+		color: #00ff00;
 }

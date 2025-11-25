@@ -61,7 +61,11 @@
           "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
         ]
       },
-      "apple": {},
+      "apple": {
+        "privacyDescription": {
+          "NSBluetoothPeripheralUsageDescription": "需要使用蓝牙扫描设备"
+        }
+      },
       "plugins": {
         "audio": {
           "mp3": {
